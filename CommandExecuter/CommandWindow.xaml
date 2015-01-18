@@ -1,0 +1,11 @@
+﻿<Window x:Class="Company.CommandExecuter.CommandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CommandWindow"  Height="391.82" Width="551.31" Background="Transparent" AllowsTransparency="True" WindowStyle="None" Loaded="Window_Loaded" KeyDown="Window_KeyDown" >
+    <Grid Margin="0,0,0,0" Background="#02000000" >
+        <Button Name="UpButton" Content="[U/I] Command 1" HorizontalAlignment="Left" Margin="179,10,0,0" VerticalAlignment="Top" Width="200" Height="110" Click="UpButton_Click"/>
+        <Button Name="LeftButton" Content="[H] Command 2" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="200" Height="110" Click="LeftButton_Click"/>
+        <Button Name="RightButton" Content="[K] Command 3" HorizontalAlignment="Left" Margin="341,142,0,0" VerticalAlignment="Top" Width="200" Height="110" Click="RightButton_Click"/>
+        <Button Name="DownButton" Content="[N/M] Command 4" HorizontalAlignment="Left" Margin="179,268,0,0" VerticalAlignment="Top" Width="200" Height="110" Click="DownButton_Click"/>
+    </Grid>
+</Window>
